@@ -28,16 +28,16 @@ Ubuntu 12.04, using [Vagrant] and [Puppet].
 
 * Run `vagrant up` from the base directory of this project. It takes a while..
 
-  Simple 'localDomain' is not installed by puppet automatically. To do so run commands:
+* Simple 'localDomain' is not installed by puppet automatically. To do so run commands:
   
-    vagrant ssh
-	/tmp/install_domain.sh
+        vagrant ssh
+        /tmp/install_domain.sh
 
-  To run weblogic server run command:
+* To run weblogic server run command:
   
 	oracle/user_projects/domains/localDomain/startWebLogic.sh
 
-Start browser from host machine: http://localhost:7001/sbconsole. User 'weblogic', password 'weblogic1'.
+Start browser from host machine: [http://localhost:7001/sbconsole]. User 'weblogic', password 'weblogic1'.
 
 [Vagrant]: http://www.vagrantup.com/
 
@@ -50,3 +50,5 @@ Start browser from host machine: http://localhost:7001/sbconsole. User 'weblogic
 [Oracle Service Bus (11.1.1.7.0)]: http://www.oracle.com/technetwork/middleware/service-bus/downloads/index.html
 
 [vbguest]: https://github.com/dotless-de/vagrant-vbguest
+
+[http://localhost:7001/sbconsole]: http://localhost:7001/sbconsole
