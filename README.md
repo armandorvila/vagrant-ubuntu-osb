@@ -12,11 +12,11 @@ Ubuntu 12.04, using [Vagrant] and [Puppet].
 
 * Clone this project:
 
-        git clone https://github.com/kgrodzicki/vagrant-ubuntu-osb.git
+        $ git clone https://github.com/kgrodzicki/vagrant-ubuntu-osb.git
 
 * Install [vbguest]:
 
-        vagrant plugin install vagrant-vbguest
+        $ vagrant plugin install vagrant-vbguest
 
 * Download [Oracle WebLogic Server 11gR1 (10.3.6) + Coherence - Package Installer]. Place the file
   `wls1036_generic.jar` in the directory `modules/oracle/files`
@@ -30,12 +30,12 @@ Ubuntu 12.04, using [Vagrant] and [Puppet].
 
 * Simple 'localDomain' is not installed by puppet automatically. To do so run commands:
   
-        vagrant ssh
-        /tmp/install_domain.sh
+        $ vagrant ssh
+        $ /tmp/install_domain.sh
 
 * To run weblogic server run command:
   
-	oracle/user_projects/domains/localDomain/startWebLogic.sh
+        $ oracle/user_projects/domains/localDomain/startWebLogic.sh
 
 Start browser from host machine: [http://localhost:7001/sbconsole]. User 'weblogic', password 'weblogic1'.
 
