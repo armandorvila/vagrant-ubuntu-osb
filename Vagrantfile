@@ -22,6 +22,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vbguest.auto_update = false
+  config.vm.synced_folder "deploy/", "/home/vagrant"
 
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"
