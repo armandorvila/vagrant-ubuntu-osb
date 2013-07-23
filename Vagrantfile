@@ -9,7 +9,6 @@ Vagrant.configure("2") do |config|
   # Forward Oracle port
   config.vm.network :forwarded_port, guest: 7001, host: 7001 
   config.vm.network :forwarded_port, guest: 7002, host: 7002 
-  config.vm.network :forwarded_port, guest: 8088, host: 8088 
   # config.vm.network :forwarded_port, guest: 8453, host: 8453
   # config.vm.network :forwarded_port, guest: 7453, host: 7453
 
