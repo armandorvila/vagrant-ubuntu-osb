@@ -5,7 +5,7 @@ class oracle::server {
   }
   
   package {
-    ["unzip", "vim", "ant"]:
+    ["unzip", "vim"]:
       ensure => installed;
   }
 
