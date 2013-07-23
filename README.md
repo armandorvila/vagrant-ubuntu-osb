@@ -39,6 +39,9 @@ Ubuntu 12.04, using [Vagrant] and [Puppet].
 
 Start browser from host machine: [http://localhost:7001/sbconsole]. User 'weblogic', password 'weblogic1'.
 
+## Troubleshooting
+Sometimes installation of domain fails at the first time. In that case run install_domain.sh more than one time :)
+
 [Vagrant]: http://www.vagrantup.com/
 
 [VirtualBox]: https://www.virtualbox.org/
